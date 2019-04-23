@@ -31,6 +31,6 @@ int main()
     }
     for(int i=zfn[0];i!=0;i=zfn[i])
      cout<<zf[i];
-	return 0;
+    return 0;
 	 
 }
