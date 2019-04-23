@@ -5,10 +5,10 @@
 using namespace std;
 int cur,last;
 char zf[999];
-int zfn[999]
-zfn[0]=0;
+int zfn[999];
 int main()
 {
+    zfn[0]=0;
     cin>>zf;
     int len = strlen(zf);
     cur=0;
@@ -29,7 +29,7 @@ int main()
         cur=i;
 	}
     }
-    for(int i=zfn[0];i ！=0；i=zfn[i])
+    for(int i=zfn[0];i!=0;i=zfn[i])
      cout<<zf[i];
 	return 0;
 	 
