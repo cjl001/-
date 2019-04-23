@@ -23,10 +23,11 @@ int main()
 	{
 	 zfn[i]=zfn[cur];
          zfn[cur]=i;	
-	}
+	
         if(last==cur)
          last=i;
         cur=i;
+	}
     }
     for(int i=zfn[0];i ！=0；i=zfn[i])
      cout<<zf[i];
